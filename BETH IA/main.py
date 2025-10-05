@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # --- Configuração segura da API ---
-genai.configure(st.write(st.secrets)["AIzaSyCMXb-oiD7CYgl2ke-OZuhMBqxSkTM9cLc"])
+genai.configure(st.write(st.secrets)["GOOGLE_API_KEY"])
 modelo = genai.GenerativeModel("gemini-2.5-pro")
 
 # --- Barra lateral ---
@@ -80,6 +80,7 @@ if mensagem_usuario:
 
     # Atualiza histórico
     st.session_state["historico_chats"][st.session_state.chat_atual] = st.session_state["lista_mensagens"]
+
 
 
 
