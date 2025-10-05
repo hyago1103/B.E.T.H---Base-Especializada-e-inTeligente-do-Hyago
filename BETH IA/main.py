@@ -5,7 +5,7 @@ import time
 # --- Configuração do app ---
 st.set_page_config(
     page_title="B.E.T.H - Base Especializada e inTeligente do Hyago",
-    page_icon="",
+    page_icon="v",
     layout="wide"
 )
 
@@ -80,6 +80,7 @@ if mensagem_usuario:
 
     # Atualiza histórico
     st.session_state["historico_chats"][st.session_state.chat_atual] = st.session_state["lista_mensagens"]
+
 
 
 
