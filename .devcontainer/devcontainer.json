@@ -6,7 +6,8 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "BETH IA/main.py"
+        "BETH IA/main.py",
+        ".streamlit/secrets.toml"
       ]
     },
     "vscode": {
