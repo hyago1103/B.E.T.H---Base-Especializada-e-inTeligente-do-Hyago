@@ -5,12 +5,12 @@ import time
 # --- Configuração do app ---
 st.set_page_config(
     page_title="B.E.T.H - Base Especializada e inTeligente do Hyago",
-    page_icon="",
+    page_icon="😶‍🌫️",
     layout="wide"
 )
 
 # --- Configuração segura da API ---
-genai.configure(st.write(st.secrets)["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 modelo = genai.GenerativeModel("gemini-2.5-pro")
 
 # --- Barra lateral ---
