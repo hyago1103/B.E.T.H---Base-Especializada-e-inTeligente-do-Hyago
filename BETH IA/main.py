@@ -5,7 +5,7 @@ import time
 # --- Configuração do app ---
 st.set_page_config(
     page_title="B.E.T.H - Base Especializada e inTeligente do Hyago",
-    page_icon="HYAGO",
+    page_icon="😶‍🌫️",
     layout="wide"
 )
 
